@@ -1,0 +1,33 @@
+# Basic files to remove
+*.reapeaks
+*.wav
+*.wave
+*.mp3
+*.mp4
+*.webm
+*.pyc
+*.RPP
+*.RPP-bak
+*.pdf
+__pycache__
+annotations/*
+
+# Vendors
+vendors/*
+
+# VSCode conf files
+.vscode
+.features_msaf_tmp.json
+.pylintrc
+.style.yapf
+.~lock.*
+setup.cfg
+
+# debugging files
+myMain.py
+restats
+tests/cue finding
+annotations/graph
+
+#compiled files
+*.egg-info

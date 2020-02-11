@@ -1,0 +1,19 @@
+.
+#----install madmom for drums detection----
+#This is a branch of madmom, it doesn't contain the last update of the main project
+#You have to install it in a different environment because it's not possible to install two versions of the same repository.
+# virtualenv madmomDrumsEnv
+# #install the dependencies. again, it's a hack here.
+# madmomDrumsEnv/bin/pip install madmom 
+# madmomDrumsEnv/bin/pip uninstall madmom
+# #install from the source `: http://www.ifs.tuwien.ac.at/~vogl/models/mirex-17.zip`
+# wget http://www.ifs.tuwien.ac.at/~vogl/models/mirex-17.zip
+# unzip mirex-17.zip
+# tar -xvzf madmom-0.16.dev0.tar.gz
+# cd madmom-0.16.dev0/
+# ../madmomDrumsEnv/bin/python setup.py develop --user
+# #check if it's working
+# ../madmomDrumsEnv/bin/python ../madmom-0.16.dev0/bin/DrumTranscriptor
+# #clean everything
+# rm mirex-17.zip
+# rm madmom-0.16.dev0.tar.gz

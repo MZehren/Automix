@@ -1,0 +1,104 @@
+  <TRACK {[TRACKID]}
+    NAME "[TRACKNAME]"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {[TRACKID]}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <VOLENV
+      ACT 1 -1
+      VIS [GAINVIS] 1 1
+      LANEHEIGHT 24 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      [GAINPT]
+    >
+    <VOLENV2
+      ACT 1 -1
+      VIS [VOLVIS] 1 1
+      LANEHEIGHT 24 0
+      ARM 1
+      DEFSHAPE 0 -1 -1
+      [VOLPT]
+    >
+    <FXCHAIN
+      WNDRECT 3373 -251 746 450
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAhwAAAAEAAAAAABAA
+        IQAAAAMAAAAIAAAAAQAAAAAAAAAAgFFAAAAAgOgmqz8IAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAE6cnEyP7j8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAZMlAAAAAgOgm
+        qz8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {[3BandEQID]}
+      <PARMENV 1 0 1 0.25
+        ACT 1 -1
+        VIS [LOWVIS] 1 1
+        LANEHEIGHT 24 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        [LOWPT]
+      >
+      <PARMENV 4 0 1 0.25
+        ACT 1 -1
+        VIS [MIDVIS] 1 1
+        LANEHEIGHT 24 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        [MIDPT]
+      >
+      <PARMENV 7 0 1 0.25
+        ACT 1 -1
+        VIS [HIGHVIS] 1 1
+        LANEHEIGHT 24 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        [HIGHPT]
+      >
+      WAK 0
+      BYPASS 0 0 0
+      <JS sstillwell/hpflpf ""
+        0.000000 22000.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {[HPFLPFID]}
+      <PARMENV 0 0 1000 500
+        ACT 1 -1
+        VIS [HPFVIS] 1 1
+        LANEHEIGHT 24 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        [HPFPT]
+      >
+      <PARMENV 1 1000 22000 11500
+        ACT 1 -1
+        VIS [LPFVIS] 1 1
+        LANEHEIGHT 24 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        [LPFPT]
+      >
+      WAK 0
+    >
+    [ITEMS]
+  >

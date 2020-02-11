@@ -1,0 +1,3 @@
+[submodule "vendors/edmkey"]
+	path = vendors/edmkey
+	url = https://github.com/angelfaraldo/edmkey.git

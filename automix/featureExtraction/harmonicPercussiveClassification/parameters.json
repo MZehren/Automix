@@ -1,0 +1,27 @@
+{
+    "numFFTBinsAt44100Hz": 4096,
+    "medianWidthHarmonic": 31,
+    "medianWidthPercussive": 31,
+    "marginHarmonic": 8,
+    "marginPercussive": 2,
+    "thresholdHarmonic": -14.2,
+    "thresholdPercussive": -10.1,
+    "measureHarmonic": "weightedAccuracy",
+    "measurePercussive": "weightedAccuracy",
+    "_fit_": {
+        "marginHarmonic": [
+            1,
+            2,
+            4,
+            8,
+            16
+        ],
+        "marginPercussive": [
+            1,
+            2,
+            4,
+            8,
+            16
+        ]
+    }
+}
